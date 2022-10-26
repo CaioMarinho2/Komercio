@@ -26,6 +26,6 @@ urlpatterns = [
     path("api/",include("user.urls")),
     path("api/products/",include("product.urls")),
     path("schema/", SpectacularAPIView.as_view(), name="schema"),
-    path("api/swagger-doc/", SpectacularSwaggerView.as_view()),
+    path("api/docs/", SpectacularSwaggerView.as_view()),
     path("api/redoc/", SpectacularRedocView.as_view()),
 ]
