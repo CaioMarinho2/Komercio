@@ -1,0 +1,62 @@
+[
+  {
+    "model": "user.user",
+    "pk": "7c893a56-1763-4c63-9137-68fcf30b3e2d",
+    "fields": {
+      "password": "pbkdf2_sha256$390000$VfXQsWWwrimhenTPC0SZxZ$cPm10XQ0uHPDNJsqczdnKdGHHSpat7X+MOebP2zQHyg=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-10-22T06:05:44.978Z",
+      "username": "xandre22",
+      "first_name": "alexandre",
+      "last_name": "alves",
+      "is_seller": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "user.user",
+    "pk": "9128140a-c8ef-49ab-b159-5b40b7e83ba1",
+    "fields": {
+      "password": "pbkdf2_sha256$390000$aSm1UFp8fHxpETVGG45oJq$d7ya/F1kRyQQ5QyAocCXnXqe4U7OFZeflb28EEUAVaU=",
+      "last_login": null,
+      "is_superuser": true,
+      "email": "",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2022-10-22T07:20:03.833Z",
+      "username": "xandre",
+      "first_name": "alexandre",
+      "last_name": "alves",
+      "is_seller": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": "6cb5456a-8811-4b65-9d8f-ef5986f1fdf5",
+    "fields": {
+      "description": "SmartWatch",
+      "price": "60.99",
+      "quantity": 7,
+      "is_active": true,
+      "seller": "7c893a56-1763-4c63-9137-68fcf30b3e2d"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": "814ac60e-a831-4571-9106-82cf595f1d94",
+    "fields": {
+      "description": "Smartband XYZ 3.0",
+      "price": "100.99",
+      "quantity": 15,
+      "is_active": true,
+      "seller": "7c893a56-1763-4c63-9137-68fcf30b3e2d"
+    }
+  }
+]
